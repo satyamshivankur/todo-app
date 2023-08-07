@@ -1,15 +1,19 @@
 "use client";
+
 import React, { useState } from "react";
-import styles from "./listCard.module.css";
-import ActionButton from "../ActionButton";
 import { useDispatch } from "react-redux";
+
 import { faPenToSquare, faTrash } from "@fortawesome/free-solid-svg-icons";
 import {
   deleteItem,
   editTitle,
   toggleImportant,
 } from "@/redux/slices/listSlice";
+
+import ActionButton from "../ActionButton";
 import Input from "../Input";
+
+import styles from "./listCard.module.css";
 
 const ListCard = (props) => {
   const { title = "", id = "", isChecked = false, provided } = props;

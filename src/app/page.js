@@ -1,14 +1,15 @@
 "use client";
 
-import styles from "./page.module.css";
-import Input from "./components/Input";
-import ListCard from "./components/ListCard";
 import { useSelector, useDispatch } from "react-redux";
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
+
 import { createItem, updateListOrderOnDrag } from "@/redux/slices/listSlice";
-import Lottie from "react-lottie-player";
-import emptyListLottie from "@/assets/lottie/empty-list-lottie.json";
+
+import Input from "./components/Input";
+import ListCard from "./components/ListCard";
 import EmptyList from "./components/EmptyList";
+
+import styles from "./page.module.css";
 
 const reorder = (list, startIndex, endIndex) => {
   const result = Array.from(list);

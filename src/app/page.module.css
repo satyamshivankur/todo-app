@@ -2,7 +2,6 @@
   height: 100vh;
   width: 100vw;
   overflow-y: scroll;
-  /* font-size: 13px; */
 }
 
 .todoList {
@@ -28,6 +27,5 @@
 @media (min-width: 481px) {
   .listLayout {
     width: 50vw;
-    /* font-size: 20px; */
   }
 }

@@ -1,20 +1,20 @@
 .actionBtn {
-  flex: 1;
+  background-color: slateblue;
   border-radius: 25px;
   border: none;
-  background-color: slateblue;
   color: white;
   cursor: pointer;
+  flex: 1;
 }
 
-.actionBtn[isprimary|=false] {
-  border: 1px solid slateblue;
+.actionBtn[isprimary|="false"] {
   background-color: white;
+  border: 1px solid slateblue;
   color: slateblue;
 }
 
-.actionBtn[isprimary|=true] {
-  border: none;
+.actionBtn[isprimary|="true"] {
   background-color: slateblue;
+  border: none;
   color: white;
 }

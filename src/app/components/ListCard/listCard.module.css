@@ -1,12 +1,12 @@
 .listCard {
   background-color: white;
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
-  border: 1px solid black;
   border-radius: 5px;
-  padding: 5px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
   gap: 10px;
+  justify-content: space-evenly;
+  padding: 5px;
   z-index: 1;
 }
 
@@ -18,9 +18,9 @@
 }
 
 .todoCheckbox {
-  flex: 1;
   display: flex;
   flex-direction: row;
+  flex: 1;
   gap: 5px;
 }
 

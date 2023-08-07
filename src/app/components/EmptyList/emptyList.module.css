@@ -1,14 +1,14 @@
 .emptyListContainer {
-  display: flex;
-  justify-content: center;
   align-items: center;
+  display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .emptyListLottie {
+  align-items: center;
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 70%;
 }
 
