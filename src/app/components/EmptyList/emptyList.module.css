@@ -1,0 +1,17 @@
+.emptyListContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.emptyListLottie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.emptyListMessage {
+  text-align: center;
+}
